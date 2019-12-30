@@ -129,6 +129,11 @@ function draw() {
             ctx.fillStyle = '#fff';
             ctx.fillText("Computer beat you again :(", 150, 280);
         }
+        else if (player2score == player1score) {
+            ctx.fillStyle = '#fff';
+            ctx.fillText("Well, Thats a tie :O", 150, 280);
+        }
+
         ctx.fillStyle = '#f6921d';
         ctx.fillText("Enter to continue", 200, 325)
         return;
