@@ -1,0 +1,14 @@
+body {
+    background-color: #222;
+}
+
+canvas {
+    margin-top: 50px;
+}
+
+.holderdiv {
+    width: 700px;
+    height: 600px;
+    margin: auto;
+}
+
